@@ -1,0 +1,82 @@
+CAMERA:
+	R: x0 y0 z0
+	D: x0 y0 z0
+	P: x0 y-200 z0
+	U: x0 y0 z1
+
+REFLECTION: 50 
+
+# 1 - 89.99...
+FOV: 60
+
+#1 - 100
+AMBIENT: 20
+
+SAMPLING: 2
+
+MATERIAL:
+	R: 0
+	G: 210
+	B: 0
+	S: 0
+	*: 10
+
+MATERIAL:
+	R: 130
+	G: 100
+	B: 250
+	S: 0
+	*: 5
+
+MATERIAL:
+	R: 240
+	G: 240
+	B: 240
+	S: 5
+	*: 5
+
+LIGHT:
+	R: 225
+	G: 225
+	B: 225
+	P: x20 y-200 z0
+
+#SPHERE:
+#	P: x0 y0 z0
+#	R: 18
+#	M: 1
+
+SPHERE:
+	P: x-12 y0 z12
+	R: 8
+	M: 0
+
+PLANE:
+	P: x0 y60 z0
+	R: x0 y1 z0
+	M: 2
+
+PLANE:
+	P: x0 y60 z30
+	R: x0 y1 z90
+	M: 2
+
+PLANE:
+	P: x0 y60 z-30
+	R: x0 y1 z90
+	M: 2
+
+PLANE:
+	P: x30 y60 z0
+	R: x90 y1 z0
+	M: 2
+
+PLANE
+	P: x-30 y60 z0
+	R: x90 y1 z0
+	M: 2
+
+OBJECT:
+	F: t_scenes/monkey.obj
+	P: x0 y0 z0
+	M: 1

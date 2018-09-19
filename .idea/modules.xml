@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fix-me.iml" filepath="$PROJECT_DIR$/fix-me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixme-broker/fixme-broker.iml" filepath="$PROJECT_DIR$/fixme-broker/fixme-broker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixme-core/fixme-core.iml" filepath="$PROJECT_DIR$/fixme-core/fixme-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixme-market/fixme-market.iml" filepath="$PROJECT_DIR$/fixme-market/fixme-market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fixme-router/fixme-router.iml" filepath="$PROJECT_DIR$/fixme-router/fixme-router.iml" />
+    </modules>
+  </component>
+</project>

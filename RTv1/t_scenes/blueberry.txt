@@ -1,0 +1,62 @@
+CAMERA:
+	R: x0 y0 z0
+	D: x0 y0 z0
+	P: x0 y-200 z0
+	U: x0 y0 z1
+
+REFLECTION: 0 
+
+# 1 - 89.99...
+FOV: 59
+
+#1 - 100
+AMBIENT: 20
+
+SAMPLING: 1
+
+MATERIAL:
+	R: 210
+	G: 210
+	B: 210
+	S: 0
+	*: 2
+
+MATERIAL:
+	R: 130
+	G: 100
+	B: 250
+	S: 0
+	*: 5
+
+MATERIAL:
+	R: 0
+	G: 200
+	B: 0
+	S: 0
+	*: 5
+
+SPHERE:
+	P: x0 y0 z50
+	R: 20
+	M: 0
+
+LIGHT:
+	R: 200
+	G: 200
+	B: 200
+	P: x20 y-100 z0
+
+SPHERE:
+	P: x0 y0 z0
+	R: 35
+	M: 1
+
+SPHERE:
+	P: x40 y0 z0
+	R: 20
+	M: 0
+
+SPHERE:
+	P: x-50 y25 z0
+	R: 20
+	M: 2

@@ -1,0 +1,139 @@
+CAMERA:
+	R: x0 y0 z0
+	D: x0 y0 z0
+	P: x0 y-100 z0
+	U: x0 y0 z1
+
+REFLECTION: 50
+
+FOV : 60
+
+AMBIENT: 10
+
+SAMPLING: 2
+
+LIGHT:
+	P: x-20 y-10 z20
+	R: 230
+	G: 230
+	B: 230
+
+LIGHT:
+	P: x30 y-10 z30
+	R: 130
+	G: 130
+	B: 130
+
+MATERIAL:
+	R: 240
+	G: 240
+	B: 240
+	S: 0
+	*: 2
+
+MATERIAL:
+	R: 0
+	G: 0
+	B: 0
+	S: 0
+	*: 10
+
+MATERIAL:
+	R: 211
+	G: 90
+	B: 225
+	S: 2
+	*: 2
+
+MATERIAL:
+	R: 200
+	G: 0
+	B: 0
+	S: 0
+	*: 0
+
+MATERIAL:
+	R: 255
+	G: 255
+	B: 255
+	S: 0
+	*: 1
+
+MATERIAL:
+	R: 222
+	G: 184
+	B: 135
+	S: 0
+	*: 1
+
+MATERIAL:
+	R: 3
+	G: 184
+	B: 235
+	S: 2
+	*: 3
+
+SPHERE:
+	P: x0 y20 z-10
+	R: 10
+	M: 4
+
+PLANE:
+	P: x0 y50 z0
+	R: x0 y1 z0
+	M: 0
+
+PLANE:
+	P: x0 y80 z40
+	R: x0 y0 z1
+	M: 0
+
+PLANE:
+	P: x0 y80 z-30
+	R: x0 y0 z1
+	M: 0
+
+CONE:
+	R: x0 y0 z0
+	P: x20 y10 z0
+	V: x0 y0 z1
+	A: 20
+	M: 2
+
+CONE:
+	R: x0 y0 z0
+	P: x40 y10 z20
+	V: x0 y0 z1
+	A: 20
+	S: 20
+	M: 2
+
+CONE:
+	R: x45 y0 z0
+	P: x40 y10 z-20
+	V: x0 y0 z1
+	A: 20
+	S: 20
+	M: 6
+	T: 0
+
+CONE:
+	R: x0 y45 z0
+	P: x0 y30 z0
+	V: x0 y0 z1
+	A: 30
+	M: 3
+
+CYLINDER:
+	R: x0 y0 z0
+	P: x20 y10 z0
+	V: x0 y0 z1
+	r: 5
+	M: 2
+
+OBJECT:
+	F: ./t_scenes/untitled.obj
+	R: x-5 y0 z-20
+	S: 0.4
+	P: x-30 y15 z-10
+	M: 5

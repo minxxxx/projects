@@ -1,0 +1,3 @@
+# Libft
+
+Réalisation d'une lib (plus de 80 fonctions), programmation des fonctions de base comme atoi, itoa, des fonctions de listes chainées en C...

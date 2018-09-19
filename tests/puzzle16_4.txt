@@ -1,0 +1,6 @@
+# This puzzle is unsolvable
+4
+ 8  5  4 11
+ 2  1  0 10
+ 6 12 15 13
+ 9  3 14  7

@@ -1,0 +1,16 @@
+FloorType floor1
+WallType block1
+BreakType block2
+UnbreakType block3
+BgType lavaBackground
+Enemy 5
+RRRRRRRRRRRR
+R.ER.......R
+R..........R
+R.GGGGGG...R
+R.GEE..G@..R
+R.GGGGGG...R
+R..........R
+R.E...GGGG.R
+R.....E....R
+RRRRRRRRRRRR

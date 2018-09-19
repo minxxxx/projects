@@ -1,0 +1,1 @@
+alias gccw='gcc -Wall -Wextra -Werror'

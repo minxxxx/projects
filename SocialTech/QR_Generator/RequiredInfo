@@ -1,0 +1,18 @@
+first name (125)
+last name (125)
+initial (1)
+id num (13(125))
+date of birth (10)
+gender (1)
+race(1)
+sub-total : 388
+Next of Kin First Name (125)
+Next of Kin Last Name  (125)
+CellPhone Number (12)
+sub-total : 262
+medical aid (124)
+medical aid number (20)
+sub-total : 144
+allergies [user prompt to suggest medical allergies such as penicillin](850)
+history (850)
+chronic medication (800)

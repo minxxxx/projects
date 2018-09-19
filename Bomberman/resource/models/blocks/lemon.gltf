@@ -1,0 +1,143 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 16200, 
+            "max" : [
+                16199
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 16200, 
+            "max" : [
+                0.31352698802948, 
+                0.31474706530570984, 
+                0.43056660890579224
+            ], 
+            "min" : [
+                -0.3096083998680115, 
+                -0.3137471675872803, 
+                -0.4376034140586853
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 16200, 
+            "max" : [
+                0.9998465776443481, 
+                0.9996825456619263, 
+                0.999825119972229
+            ], 
+            "min" : [
+                -0.9999228119850159, 
+                -0.9989136457443237, 
+                -0.9999899864196777
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 16200, 
+            "max" : [
+                0.9645399451255798, 
+                0.9686375074088573
+            ], 
+            "min" : [
+                0.04442218691110611, 
+                0.02173835039138794
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 32400, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 194400, 
+            "byteOffset" : 32400, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 194400, 
+            "byteOffset" : 226800, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 129600, 
+            "byteOffset" : 421200, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 550800, 
+            "uri" : "lemon.bin"
+        }
+    ], 
+    "materials" : [
+        {
+            "name" : "02 - Default", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.7529411904952106, 
+                    0.6305882547883428, 
+                    0.0, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Sphere01", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TEXCOORD_0" : 3
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "mesh" : 0, 
+            "name" : "Sphere01"
+        }
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+CAMERA:
+	R: x0 y0 z0
+	D: x0 y1 z0
+	P: x0 y-200 z0
+	U: x0 y0 z1
+
+REFLECTION: 50
+
+FOV: 60
+
+AMBIENT: 5
+
+MATERIAL:
+	R: 100
+	G: 100
+	B: 255
+	S: 0
+	*: 5
+
+TRIANGLE:
+	v1: x0 y0 z10
+	v2: x-10 y0 z-5
+	v3: x10 y0 z-5
+	M: 0
+	R: x45 y0 z0
+
+LIGHT:
+	P: x20 y-100 z0
+	R: 200
+	G: 200
+	B: 200
+
+MATERIAL:
+	R: 30
+	G: 30
+	B: 50
+	S: 0
+	*: 10
+
+SPHERE:
+	P: x15 y5 z20
+	R: 10
+	M: 1

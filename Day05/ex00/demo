@@ -1,0 +1,58 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hrossouw <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/02/19 10:06:27 by hrossouw          #+#    #+#             */
+/*   Updated: 2018/02/19 13:44:17 by hrossouw         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+#include <stdio.h>
+#include <unistd.h>
+
+void	ft_putchar(char c);
+void	ft_putstr(char *str);
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{	int index;
+
+	index = 0;
+	while (str[index] != '\0')
+	{
+		ft_putchar(str[index]);
+		index++;
+	}
+}
+
+void	replace_first_h_with_y(char *str)
+{
+	str[0] = 'y';
+}
+
+void	replace_first_char(char *src, char *dest)
+{
+	dest[0] =  src[0];
+}
+
+int	main(void)
+{
+	char str1[] = "Hello";
+	char str2[] = "Yoggo";
+	
+	ft_putstr(str1);
+	ft_putchar('\n');
+	ft_putstr(str2);
+	ft_putchar('\n');
+	replace_first_char(str1, str2);
+
+	ft_putstr(str2);
+	ft_putchar('\n');
+	return 0;
+}

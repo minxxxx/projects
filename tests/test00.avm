@@ -1,0 +1,12 @@
+push Int32(42)
+push Int32(33)
+add, pony
+push float(44.55)
+mul
+dual push(42.42)
+; comments of relief
+push Int32(42)
+dump
+pop
+dual assert(42.42)
+exit

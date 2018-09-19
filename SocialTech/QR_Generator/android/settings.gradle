@@ -1,0 +1,9 @@
+rootProject.name = 'QR_Generator'
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-aes-kit'
+project(':react-native-aes-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-aes-kit/android/app')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':app'

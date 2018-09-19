@@ -1,0 +1,5 @@
+Credentials cache: API:17356
+        Principal: mlubisi@42.FR
+
+  Issued                Expires               Principal
+Mar 29 14:30:09 2016  Apr  5 14:29:52 2016  krbtgt/42.FR@42.FR

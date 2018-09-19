@@ -1,0 +1,1 @@
+ldapsearch uid=username dn

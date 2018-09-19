@@ -1,0 +1,3 @@
+.build/							usr/src/WeThinkCode_
+terraform/scripts/install.sh	usr/src/WeThinkCode_
+terraform/scripts/start.sh		usr/src/WeThinkCode_

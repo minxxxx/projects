@@ -1,0 +1,3 @@
+JOhn the Teenager,Knight,2,540,short sword,leather armor
+Alex the great,Elf,3,124,longbow,leather armor
+Thor the Mighty,Knight,6,990,long sword,steel armor

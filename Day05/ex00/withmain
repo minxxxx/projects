@@ -1,0 +1,38 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hrossouw <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/02/19 10:06:27 by hrossouw          #+#    #+#             */
+/*   Updated: 2018/02/20 17:19:33 by hrossouw         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
+#include <stdio.h>
+
+char	*ft_strcpy(char *dest, char *src)
+{
+	int i;
+
+	i = 0;
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	*dest = *src;
+	return (dest);
+}
+
+int	main(void)
+{
+	char str1[] = "Hello";
+	char str2[] = "Kitty";
+
+	printf("St1 %s\n", str1);
+	printf("St2 %s\n", str2);
+	return (0);
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+
+body
+{
+    background-image: url(../pictures/Art-Abstract-Love-Romantic-Wallpaper.jpg);
+}
+
+#titlebox
+{
+    height: auto;
+    width: auto;
+}
+
+.box
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+    height: 400px;
+	width: auto;
+}
+
+#title
+{
+    text-align: center;
+    text-decoration: none;
+    font-size: 120px;
+    color: aqua;
+    font-family: Cinzel Decorative;
+	text-shadow: 2px 2px 1px rgb(100, 200, 255);
+	text-shadow: 3px 3px 1px rgb(80, 80, 255);
+}
+
+#title:hover
+{
+    font-size: 130px;
+	color: rgb(80, 80, 255);
+}
+
+#msgs
+{
+	height: auto;
+	width:auto;
+	text-align: center;
+	font-family: Tangerine;
+	color: azure;
+	font-size: 50px;
+}
+
+#loginHeader
+{
+	text-align: center;
+	font-size: 50px;
+	color: beige;
+	font-family: Sue Ellen Francisco;
+	text-shadow: 2px 2px 5px rgb(200, 50, 50);
+}
+
+.inputbox
+{
+	display: block;
+	width: 250px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.button
+{
+	border-style: hidden;
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	font-family: Sue Ellen Francisco;
+	color: beige;
+	padding: 10px 30px;
+	width: 200px;
+	display:inline-block;
+	font-size: 50px;
+}
+
+.button:hover
+{
+	color: aqua;
+	cursor: pointer;
+}
+
+f_error
+{
+	margin-left: 100px;
+	text-align: center;
+	font-family: Sue Ellen Francisco;
+	font-size: 30px;
+	color: rgb(255, 20, 20);
+}
+
+#footer
+{
+	color: aqua;
+	font-size: 30px;
+	font-family: Tangerine;
+	text-align: right;
+	margin-top: 280px;
+}
+
+td
+{
+	text-align: center;
+	width: 200px;
+	font-family: Sue Ellen Francisco;
+	font-size: 28px;
+	color: burlywood;
+}
+
+.pictures
+{
+	float: left;
+	width: 40px;
+	padding: 2px 2px 2px 2px;
+	margin-right: 1px;
+	height: 40px;
+	background-color:aliceblue;
+}
+
+textarea
+{
+	resize: none;
+}
+
+f_r_error
+{
+	margin-top: -50px;
+	margin-left: 42%;
+	text-shadow: 1.5px 1.5px 5px black;
+	font-family: Sue Ellen Francisco;
+	font-size: 30px;
+	color: rgb(255, 20, 20);
+}

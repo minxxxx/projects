@@ -1,0 +1,19 @@
+.card {
+    margin: 5px;
+}
+
+.noSelectedPatient {
+    height: 200px; 
+    line-height:200px; 
+    text-align: center;
+    font-size: 24pt;
+    color: lightgray;
+}
+
+.noInboundPatients {
+    height: 200px; 
+    line-height:200px; 
+    text-align: center;
+    font-size: 24pt;
+    color: lightgray;
+}

@@ -1,0 +1,11 @@
+MapWidth 0
+MapHeight 0
+MapName map2
+BreakableBlockType block2
+@ 12.58 0 -8.80005
+G 4 0 -6 3 2
+G 12 0 -6 3 6
+E onile 10.1698 0 -1.85977
+E onile 13.6499 0 -15.9301
+E onile 2.92407 0 -8.40025
+E onile 1.85565 0 -4.37975

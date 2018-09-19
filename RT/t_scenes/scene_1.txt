@@ -1,0 +1,74 @@
+# setup ; Lines starting with '#' are ignored. Empty lines aswell.
+CAMERA:
+	R: x0 y0 z0
+	D: x0 y0 z1
+	P: x0 y100 z-5
+	U: x0 y0 z1
+
+REFLECTION: 50
+
+FOV: 60
+
+AMBIENT: 5
+
+# shapes
+MATERIAL:
+	R: 210
+	G: 255
+	B: 0
+	S: 1
+	*: 2
+
+SPHERE:
+	P: x200 y300 z0
+	R: 150
+	M: 0
+
+MATERIAL:
+	R: 130
+	G: 130
+	B: 130
+	S: 2
+	*: 5
+
+SPHERE:
+	P: x400 y400 z0
+	R: 50
+	M: 1
+
+# lights
+LIGHT:
+	P: x0 y240 z-100
+	R: 255
+	G: 255
+	B: 255
+
+#other shapes
+CYLINDER:
+	R: x0 y0 z0
+	P: x250 y300 z100 r50
+	V: x0 y1 z0 r50
+	M:1 
+
+TRIANGLE:
+	v1: x0 y-1000 z200
+	v2: x800 y1000 z200
+	v3: x0 y1000 z200
+	M: 3
+	R: x66 y0 z0
+
+# oops
+MATERIAL:
+	R: 130
+	G: 130
+	B: 130
+	S: 3
+	*: 4
+
+OBJECT:
+	S: object/object1.obj
+	P: x0 y0 z0
+
+# It will run a loop first to count all the different shapes.
+# Then it will run another loop to read all the individual items.
+# As you add new shapes it should be easy to create a new read function for itr

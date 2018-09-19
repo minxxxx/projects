@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+
+body
+{
+	background-image: url(../pictures/acc_bg.png);
+}
+
+#title
+{
+	font-size: 80px;
+	color: cyan;
+	text-shadow: 3px 3px 1px rgb(80, 80, 255);
+	font-family: Cinzel Decorative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+f_error
+{
+	margin-left: 100px;
+	text-align: center;
+	font-family: Sue Ellen Francisco;
+	font-size: 30px;
+	color: rgb(255, 20, 20);
+}
+
+f_success
+{
+	margin-left: 100px;
+	text-align: center;
+	font-family: Sue Ellen Francisco;
+	font-size: 30px;
+	color: rgb(0, 240, 0);
+}
+
+.pictures
+{
+	float: left;
+	width: 40px;
+	padding: 2px 2px 2px 2px;
+	margin-right: 1px;
+	height: 40px;
+	background-color: rgba(230, 230, 200, 0.98);
+}
+
+#background
+{
+	margin: auto;
+	margin-top: 1%;
+	width: 70%;
+	height: 80%;
+	background-image: url(../pictures/Background%20-account.jpg);
+}
+
+#sidebar
+{
+	float: right;
+	background-color: rgb(0, 0, 0);
+	width: 20%;
+	height: 100%;
+	margin-top: -618px;
+}
+
+#information
+{
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+	color: rgb(230, 230, 250);
+}
+
+a:link
+{
+	text-decoration: none;
+	color: rgb(230, 230, 250);
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: lightpink;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: rgb(230, 230, 250);
+}
+
+ul
+{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	margin-top: -48px;
+	list-style: none;
+	padding: 0;
+
+}
+
+ul li a
+{
+	height: 5%;
+	width: 50%;
+	background-color: rgb(60, 60, 60);
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	display:block;
+	float: left;
+}
+
+ul li a:hover
+{
+	background-color: rgb(120, 120, 120);
+}
+
+.tab
+{
+	text-overflow: inherit;
+}
+
+.textboxes
+{
+	float: left;
+	margin-top: 10px;
+	display: block;
+	width: 200px;
+	height: 300px;
+	resize: none;
+}
+
+.tableHeader
+{
+	font-family: Tangerine;
+	text-align: center;
+	font-size: 50px;
+	color: rgb(230, 230, 250);
+	text-shadow: 1px 1px 2px black;
+	display:grid;
+}
+
+table
+{
+	margin-left: 275px;
+	margin-top: 150px;
+}
+
+.button
+{
+	text-decoration: none;
+	text-align: center;
+	font-size: 80px;
+	width: 200px;
+	height: 100px;
+	display: inline-block;
+	border: hidden;
+	color: rgb(230, 230, 250);
+	text-shadow: 1px 1px 2px black;
+	background-color: rgba(0,0,0,0);
+	font-family: Tangerine;
+	margin-top: 80px;
+}
+
+form .button:hover
+{
+	color: crimson;
+	cursor: pointer;
+}
+
+#forms
+{
+	width: 300px;
+	height: 80%;
+	margin-top: 50px;
+}
+
+.inputbox
+{
+	float: left;
+	margin-left: 400px;
+	margin-top: 80px;
+	width: 300px;
+	height: 50px;
+	font-size: 25px;
+	display: block;
+}

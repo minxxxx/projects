@@ -1,0 +1,3 @@
+{ "_id" : ObjectId("5a531869e5f2207c53d094dc"), "HPCSANumber" : "HCP0001", "Email" : "exallowen@gmail.com", "Username" : "0000", "Password" : "$2a$05$rJC9IQzFsnljHyAGhRjGGuiQntJhKvuW8fGrujdIX.Xjy0NBELO4e", "JoinDate" : ISODate("2018-01-08T07:06:17.915Z"), "__v" : 0 }
+
+{ "_id" : ObjectId("5a531a0d10387279f7129fa1"), "FullName" : "Netcare Rand Hospital", "Code" : "0000", "Password" : "$2a$05$rJC9IQzFsnljHyAGhRjGGuiQntJhKvuW8fGrujdIX.Xjy0NBELO4e", "Longitude" : 28.050682, "Latitude" : -26.184467, "StreetAddress" : "33 Bruce Street", "City" : "Johannesburg", "Province" : "Gauteng", "Country" : "South Africa" }
